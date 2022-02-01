@@ -116,4 +116,5 @@ A program usually begins with a `main()` function, executes a bunch of instructi
 
 All modules end by calling either `cleanup_module` or the function you specify with the `module_exit` call. This is the exit function for modules; it undoes whatever entry function did. It unregisters the functionality that the entry function registered.
 
+__________
 Updated : 06/02/2021 Author: andrea-bsierra
